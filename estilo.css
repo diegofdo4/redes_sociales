@@ -14,14 +14,16 @@ ul .icon {
     border: 2px white solid;
     border-radius: 50%;
     cursor: pointer;
-    transition-property: outline-offset,
-    outline-color, background-color;
+    
 }
 
 .icons ul i .fa{
     color: white;
     margin-left: 5px;
     margin-top: 2px;
+    transition-property: outline-offset,
+    outline-color, background-color;
+    transition-duration: .25s;
 }
 
 .facebook {
@@ -59,7 +61,7 @@ ul .icon {
     padding-left: 7.5px;
 }
 
-.icons:hover {
+.icon:hover {
     outline-offset: 10px;
 }
 
