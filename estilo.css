@@ -49,7 +49,7 @@ ul .icon {
     padding-left: 7px;
 }
 
-.gmail {
+.whatsapp {
     padding-top: 5px;
     padding-left: 8px;
     padding-bottom: 3px;
@@ -93,8 +93,8 @@ ul a:hover{
     animation: shake .25s;
 }
 
-.gmail:hover {
-    background-color: #db4a39;
+.whatsapp:hover {
+    background-color: #00bb2d;
     animation: shake .25s;
 }
 
