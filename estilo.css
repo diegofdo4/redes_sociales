@@ -14,14 +14,18 @@ ul .icon {
     border: 2px white solid;
     border-radius: 50%;
     cursor: pointer;
-    transition-property: outline-offset,
-    outline-color, background-color;
+    
 }
 
-.icons ul i .fa{
+.icons ul li .fa{
+    width: 0px;
+    height: 0px;
     color: white;
     margin-left: 5px;
     margin-top: 2px;
+    transition-property: outline-offset,
+    outline-color, background-color;
+    transition-duration: .25s;
 }
 
 .facebook {
@@ -45,7 +49,7 @@ ul .icon {
     padding-left: 7px;
 }
 
-.gmail {
+.whatsapp {
     padding-top: 5px;
     padding-left: 8px;
     padding-bottom: 3px;
@@ -59,26 +63,45 @@ ul .icon {
     padding-left: 7.5px;
 }
 
-.icons:hover {
-    outline-offset: 10px;
+.icon:hover {
+    outline-offset: 26px;
 }
 
-.icons:hover i {
+
+.facebook:hover {
+    background-color: #3b5998;
+    outline-color: #3b5998;
     animation: shake .25s;
 }
 
-.facebook:hover {
-    background-color: #0972ab;
-    outline-color: #0972ab;
-}
-
-.fa-facebook:hover {
-    background-color: #0972ab;
-}
-
-
 .instagram:hover {
-    background-color: aqua;
-    
+    background-image: 
+    radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%,
+    #fd5949 45%, #d6249f 60%,
+    #285AEB 90%);
+    outline-color: #a02d76;
+    animation: shake .25s;
 }
 
+.twitter:hover {
+    background-color: #00acee;
+    animation: shake .25s;
+}
+
+.whatsapp:hover {
+    background-color: #00bb2d;
+    animation: shake .25s;
+}
+
+.github:hover {
+    background-color: #171515;
+    animation: shake .25s;
+}
+
+@keyframes shake {
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
