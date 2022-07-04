@@ -74,10 +74,6 @@ ul .icon {
     animation: shake .25s;
 }
 
-ul a:hover{
-    background-color: #3b5998;
-}
-
 .instagram:hover {
     background-image: 
     radial-gradient(circle at 30% 107%,
